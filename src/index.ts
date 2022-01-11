@@ -12,8 +12,8 @@ app.get("/", (req:Request,res:Response)  => {
 
 const port = 3000;
 app.listen(port, () => {
-    counter++;    
+    console.log(`Server is listening on port ${port}`)   
 })
 
 
-console.log("counter")
+
